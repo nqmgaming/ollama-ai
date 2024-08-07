@@ -3,6 +3,7 @@ from app.api.api_v1.api import api_router
 from app.core.config import settings
 from app.db import init_db
 
+
 app = FastAPI(title=settings.PROJECT_NAME)
 
 
